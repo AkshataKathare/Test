@@ -1,0 +1,93 @@
+1.Explain java and javac.
+Ans:java is a command given to execute or run a program.
+javac is a command given to compile the program.
+When javac command is given,the compiler compile's the program by checking the syntax.When java command is given,JVM starts ,JVM checks for the main method and executes the program.
+
+2.Explain JDK,JRE,JVM.
+Ans:JDK:Java Development Kit:-It consists of JRE and JVM.
+JVM:Java Virtual Machine :-JVM is not present physically.This is the combination of JRE and Set of libraries i.e;
+     JVM=JRE+set of libraries.
+JRE:Java Runtime Environment	:-This appears in the PC at the time we download and install the JDK .This is present physically.
+
+3.List the limitations of array.
+Ans:Limitations of array-*Array can be used only for one datatype references.
+
+4.Explain class,object and signature of the class.
+Ans:Class:-Class is mentioned at the top of the program with the className.Class is the blueprint to create instances.class must in lowercase and the className should start with a lower case and the second word should start with an upper case.
+
+5.Difference between .java file and .class file.
+Ans:  1..java file is a source code and .class file is a byte code.
+      2. .java file is human understandable and .class file cannot be understood by a human .
+	  
+6.Explain method signature.
+Ans:
+
+7.What is java?
+Ans:Java is a high level,object oriented programming language.
+
+8.List the java IDEs.
+Ans:Eclipse.
+
+9.What is variable?Explain its types.
+Ans:Variable stores the references of data.   
+ Types:Mainly there are two types of variables 1.class level variables
+                                               2.method level variables
+ Within the class level variables we have twotypes:
+1.static variables also called as class variables .
+2.non-static variables also called as instance variables.
+ Within the method level variables there are two types:
+1.local variables 
+2.parameters.
+
+10.List 15  java keywords.
+Ans: 1.int
+     2.double  
+	 3.assert
+	 4.char
+	 5.String
+	 6.float
+	 7.new
+	 8.byte
+	 9.long
+	 10.public
+	 11.void
+	 12.boolean
+	 
+11.What is a class variable?
+Ans:Class variable is nothing but a static variable which is declared and initialised within the class and outside the method.
+
+12.What is datatype and Explain its types.
+Ans:Data type is the keyword which tell the type of variable declared.
+    There are mainly two dataTypes:
+    1.primitive
+    2.Non-primitive
+  *In primitive,there are 8 types:
+   1.byte
+   2.int
+   3.long
+   4.float
+   5.double
+   6.char
+   7.boolean
+   8.String
+ * Non-primitive datatypes are infinite in number:
+    String,[],etc...
+
+13.What is a Dot operator?
+Ans:
+
+14.List the Java features.
+Ans:1.Java is object oriented language.
+    2.Simple and easy to learn.
+    3.Platform independent.
+    4.Embedded.
+   
+15.Which is the basic class for other classes?
+Ans:   
+	 
+	 
+	 
+	 
+	 
+	 
+	 
