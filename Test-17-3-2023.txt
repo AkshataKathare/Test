@@ -1,0 +1,81 @@
+1.Explain Java components.
+Ans: There are mainly 3 java components:-
+    a)JVM:Java Virtual Machine:
+	    This does not exist physically.
+	    Functions of JVM:1.Loads the byteCode,2.Verifies the byteCode ,3.Executes the byteCode and 4.Provides the run time environment.
+	b)JRE:Java Runtime Environment:
+	    This exists physically.
+		As JVM cannot provide runtime environment alone,it needs set of libraries that is present in JRE.
+		JRE=JVM+set of libraries.
+		JRE is enough to execute the .class file.
+	c)JDK:Java Development Kit:
+         This is a fully developed java kit.
+         This is required to write and execute the program.
+
+2.Explain java features.
+Ans :a)Simple:It is simple to understand.
+     b)Platform independent:Java is platform independent because of the byte code.
+     c)Robust:It delete's the objects which are not pointing to any memory location.
+     d)Easy to learn.
+     e)Secured.
+
+3.Explain constructor and types.
+Ans :Constructor is a special method.It has the same name as that of the className.It does not have returnType.Constructor is usually used to initialize the instance variables and in the chaining.
+      Types:There are two types of constructors:-1]No-argument constructor:It is implicitly provided by the compiler in any class of Java.
+       2]Parameterized constructor:Constructors having parameters are called Parameterized constructors.They are used to initialize the instance variables and are used in constructor chaining.
+
+4.Explain variable and its types.
+Ans :Variable is the container which stores the data.
+   There are basically two types of variables:Class-level variables and method-level variables.
+    1}Class-level variables:These are the variables declared at the class-level.
+       a)Static variables/class variables:These are declared at the class level with a keyword 'static'.These variables can be accessed by the className or by the reference.
+       b)Non-static/instance variables:These are also declared at the class level.These are declared without the static keyword.These can be accessed only by the reference.
+
+5.Why java is not pure Object Oriented Programming language?
+Ans :Due to the primitive datatypes which don't have states and behaviours.
+
+6.Explain dynamic and static binding?
+Ans :
+
+7.Explain OOPs concept.
+Ans :There are 4 principles of OOP language:
+   1.Polymorphism:Every class is polymorphic in java.Polymorphism means having same name but different forms.Polymorphism are of two types:-Overloading and over-riding
+      a)Overloading:this is achieved in two ways:-Method and constructor
+              Method Overloading is methods having same name but different parameters.
+              Constructor Overloading is constructors having same name but different parameters.
+      b)Over-riding:this is achieved only in one way i.e, method over-riding.Method over-riding is changing the implementation of the methods of the parent class.
+           Runtime polymorphism is achieved by Over-riding the methods because JVMdecides which method to be executed during the execution. 
+  2.Inheritance:Inheritance is aquiring all properties of the child class.This is achieved by using the keyword 'extends'.Implicitly it has a no-arg constructor which calls the no-arg constructor of the parent class.
+  3.Encapsulation:It is integrating the properties into a single entity.This is achieved by hiding the data and providing the access using the setter and getter methods.Setter method are used to modify the data and getter methods are used to read the data only.
+  4.Abstraction:It is hiding the implementation and showing only the functionality to the user.
+    This can be achieved in two ways:
+	a)Abstract class: It contains the abstract as well as the concrete methods.Abstract means incomplete .Abstract methods don't have the body.If we want to acces the methods from abstract class then we have to create a class which extends this abstract class.
+	b)Interface:100% abstraction is achived by interface because it containd only the abstract methods.
+	
+11.Explain interface.
+Ans :'interface' is a keyword.It is a custom datatype.interface contains static final variables and abstract,default and static methods.Interface can implement n number of interfaces.This solves the diamond problem.
+
+12.Explain Exception.
+Ans :Exception is basically the exceptional events in java which stops the normal execution of the program.Parent-most class of the Exception is the Throwable class,it has two subclasses,i.e,Error and Exception.
+a)Compiler checked exception:Throwable and Exception are the compiler checked exceptions because the compiler forces to handle the exception.
+b)Compiler-unchecked exception:Error and Runtime exception are the compiler unchecked exceptions because
+compiler doesn't forces to handle the exception.
+
+throw is a keyword to create the event and throws is a keyword to handle the exception.
+Exceptions can be handled by try/catch method also.
+
+13.Explain Access-specifiers.
+Ans :Access-specifiers are used to specify the accessibility of the properties .They are used with class-declaration,variable declaration,method declaration ,constructor declaration etc...
+There are mainly 4 types:
+a)public :We can access in any class of any package.
+b)private :We can access only in the same class.
+c)protected: We can access in the classes of same package and in the sub class of other package.
+d)package default:We can access only in the classes of the same package.
+
+14.Difference between Abstraction and Interface.
+Ans :a)Abstraction is the process in which the implementation is hidden and the functionality is shown to the user.Interface is a java type which is used to achieve the abstraction.
+
+
+ 	
+	
+	
