@@ -1,0 +1,91 @@
+2-6-2023
+
+1.a)public static void main(String[] args ){} is a method where public is an access-specifier i.e this method can be accessed within any class of any package.static is a non-access-specifier i.e this method can be called without creating any instance of the class.
+void is that the main method will not return any thing.String[] args  is a command line argument which will store all the String values in the program.
+
+  b)class is a blueprint or a template to create the object.It consists of states,behaviours,constructors and blocks.Object is a parent most class which has states and behaviours .It has 11 methods like clone,finalize,toString,hashCode,equals,etc...
+ 
+  c)JVM:Java Virtual Machine :This is not present physically.Its main work is to load,verify and execute the bytecode.It also provides run-time environment along with the set of libraries.
+  JRE:Java-Runtime-Environment:This is the minimum requirement to execute the program.It is JVM+set of libraries.
+  JDK:Java-Development-Kit:This is the kit which consists of JVM and development tools like compiler,debugger etc..
+  
+2.public class ReverseNumber{
+   main();
+   
+   int number=1234;
+   int sum,r=0;
+   
+   if(number>0){
+   r=number%10;
+   sum=sum*10+r;
+   number=number/10;
+   }
+   System.out.println("ReverseNumber is "+sum);
+}
+
+3.
+   public class ReverseString{
+   main();
+   
+   String name="program";
+   String rev="";
+   
+   for(int i=name.length()-1;i>=0;i--){
+        rev+=name.toCharArray(i);
+   }
+   System.out.println(rev);
+   }
+   
+   
+4.Constructor is a special method which has the same name as that of the classname and no return type.There are 3 types of constructors:
+   a.Default constructor :The const provided by the compiler if it is not defined by the user.
+   b.No-arg const:If the user defines a const without any parameters.
+   c.Parameterised const:If the constructor has the parameters.
+   
+5.this is a keyword which is used for the current instance and also to differntiate between the local and instance variable.this() method is used for const chaining in the current class.
+
+6.main method is static because it can be called ib other classes without creating any instance of the class. 
+   There are two types of methods:pre-defined and user-defined methods.
+    Pre-defined methods are written by others and used by others like main method,println,etc.
+	User-defined methods are static and non static methods written by the programmer.
+
+	
+7.   public class Numbers{
+     main(){
+	    int num=100;
+		
+		for(int i=1;i<=num;i++){
+		     if(i%5==0 || i%10==0 ){
+			 System.out.println(i);
+			 }
+		}
+	 }
+}
+
+8.Java class loaders.
+
+9.We cannot write the private constructor because they are used to create the instance of class in other class and initialize the instance variables and if we make it as private the we cannot access it any other class.
+      We can achieve constructor overloading by passing diff parameters.
+	   
+	   public class Overload{
+	   private String name;
+	   
+	   public Overload(){
+	   System.out.println("No arg const");
+	   }
+	   
+	   public Overload(String name){
+	   System.out.println("Const with String parameter");
+	   }
+	   
+	   }
+
+10.public class Array{
+   main();
+   
+   int[] numbers={12,3,2,45,6,7,6};
+  
+   System.out.println(numbers.size());
+}
+
+11.We cannot use instance variables inside the static method.
